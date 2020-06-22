@@ -72,17 +72,17 @@ const AddTransaction = () => {
         <div className="form-wrapper">
             <form onSubmit={onSubmitIncome}>
                 <div className="input-group income">
-                    <input value={incomeText} name="incomeText" type="text" placeholder="Add income..." autoComplete="off" onChange={onChangeIncome}/><br/>
+                    <input value={incomeText} name="incomeText" type="text" placeholder="Details" autoComplete="off" onChange={onChangeIncome}/><br/>
                     <input value={incomeAmount} name="incomeAmount" type="number" placeholder="Amount" autoComplete="off" onChange={onChangeIncome}/><br/>
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="ADD" />
                 </div>
 
             </form>
             <form onSubmit={onSubmitExpense}>
                 <div className="input-group expense">
-                    <input value={expenseText} name="expenseText" type="text" placeholder="Add Expense..." autoComplete="off" onChange={onChangeExpense}/><br/>
+                    <input value={expenseText} name="expenseText" type="text" placeholder="Details" autoComplete="off" onChange={onChangeExpense}/><br/>
                     <input value={expenseAmount} name="expenseAmount" type="number" placeholder="Amount" autoComplete="off" onChange={onChangeExpense}/><br/>
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="ADD" />
                 </div>
 
             </form>
